@@ -53,3 +53,4 @@ try{
 ## TODO:
 - Beatiful Threw Error
 - More secure salt generation
+- Add streams
