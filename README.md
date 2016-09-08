@@ -5,8 +5,6 @@ You can encrypt string in the browser and decrypt it on the PHP-server. Or encry
 No dependecies! No OpenSSL required.
 
 ## How to add to project
-Clone from this repository and put to node_modules. Then:
-
 JavaScript:
 ```html
 <script src="rc4a.min.js" type="text/javascript"></script>
