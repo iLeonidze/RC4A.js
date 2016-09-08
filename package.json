@@ -1,0 +1,32 @@
+{
+  "name": "rc4a",
+  "version": "0.1.0",
+  "author": {
+    "name": "ileonidze",
+    "email": "me@ileonidze.ml",
+    "url": "ileonidze.ml"
+  },
+  "description": "Encryption algorithm based on alleged RC4",
+  "keywords": [
+    "encryption",
+    "algorith",
+    "rc4",
+    "arc4",
+    "arcfour",
+    "rc4a"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iLeonidze/RC4A.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iLeonidze/RC4A.js/issues"
+  },
+  "homepage": "https://github.com/iLeonidze/RC4A.js",
+  "maintainers": [
+    {
+      "name": "ileonidze",
+      "email": "me@ileonidze.ml"
+    }
+  ]
+}
