@@ -36,6 +36,20 @@ var secret = rc4a.encrypt(text,password,customSalt);
 ```
 And that's it. You don't have to pass salt for the decryption.
 
+## Error catching
+Do not forget about damaged data. Test your code like this:
+```js
+var text = "Lorem ipsum 123 ёюйяъэ !№;%:?*()";
+var password = "supёrP@$$w0rd";
+var secret = rc4a.encrypt(text,password).substr(4); // let's damage this encrypted content
+try{
+  var decryptedText = rc4a.decrypt(secret,password); // here you will get an error
+  console.log("Successfully decrypted! Decrypted text:",decryptedText);
+}catch(e){
+  console.log("Can\'t decrypt your data.");
+}
+```
+
 ## TODO:
 - Beatiful Threw Error
 - More secure salt generation
