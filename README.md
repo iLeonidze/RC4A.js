@@ -37,3 +37,7 @@ var customSalt = "397ba6e0085f182db7ee7f6e3515530d";
 var secret = rc4a.encrypt(text,password,customSalt);
 ```
 And that's it. You don't have to pass salt for the decryption.
+
+## TODO:
+- Beatiful Threw Error
+- More secure salt generation
