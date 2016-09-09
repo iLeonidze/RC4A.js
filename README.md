@@ -4,7 +4,7 @@ You can encrypt string in the browser and decrypt it on the [PHP-server](https:/
 
 ###[Go to RC4A for PHP on GitHub](https://github.com/iLeonidze/RC4A.php)
 
-No dependecies! No OpenSSL required.
+No dependecies! No OpenSSL required. Javascript, NodeJS, PHP compatible.
 
 ## How to add to project
 JavaScript:
