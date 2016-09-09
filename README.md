@@ -6,7 +6,7 @@ You can encrypt string in the browser and decrypt it on the [PHP-server](https:/
 
 No dependecies! No OpenSSL required. Javascript, NodeJS, PHP compatible.
 
-## How to add to project
+## How to use in project
 JavaScript:
 ```html
 <script src="rc4a.min.js" type="text/javascript"></script>
