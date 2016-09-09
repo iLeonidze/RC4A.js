@@ -7,11 +7,19 @@ You can encrypt string in the browser and decrypt it on the [PHP-server](https:/
 No dependecies! No OpenSSL required. Javascript, NodeJS, PHP compatible.
 
 ## How to use in project
-JavaScript:
+####JavaScript:
+
+Download [rc4a.min.js](https://raw.githubusercontent.com/iLeonidze/RC4A.js/master/rc4a.min.js) to the project root, then
 ```html
 <script src="rc4a.min.js" type="text/javascript"></script>
 ```
-NodeJS:
+####NodeJS:
+
+Install via npm or clone this git to node_modules
+```npm
+npm install rc4a
+```
+Then use
 ```js
 var rc4a = require("rc4a");
 ```
