@@ -1,6 +1,8 @@
-# RC4A.js
+# RC4A.js v0.1.2
 NodeJS/JavaScript implementation of simple and powerfull string encryption/decryption with the password & UTF-8 support.
-You can encrypt string in the browser and decrypt it on the PHP-server. Or encrypt on the PHP-server and decrypt in browser.
+You can encrypt string in the browser and decrypt it on the [PHP-server](https://github.com/iLeonidze/RC4A.php). Or encrypt on the [PHP-server](https://github.com/iLeonidze/RC4A.php) and decrypt in browser.
+
+###[Go to RC4A for PHP on GitHub](https://github.com/iLeonidze/RC4A.php)
 
 No dependecies! No OpenSSL required.
 
