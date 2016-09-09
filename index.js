@@ -24,8 +24,7 @@
 }
     function randomString(size){
         var text = "";
-        var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-        for( var i=0; i < size; i++) text += possible.charAt(Math.floor(Math.random() * possible.length));
+        for( var i=0; i < size; i++) text += String.fromCharCode(Math.floor(Math.random()*95+32));
         return text;
     }
     function encrypt(string,key,salt/*optional*/){

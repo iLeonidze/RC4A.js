@@ -1,20 +1,29 @@
 {
   "name": "rc4a",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "author": {
     "name": "ileonidze",
     "email": "me@ileonidze.ml",
     "url": "ileonidze.ml"
   },
-  "description": "Encryption algorithm based on alleged RC4",
+  "description": "Simple text-password advanced encryption & decryption UTF-8 algorithm based on alleged RC4. NodeJS, JavaScript, PHP compatible.",
   "keywords": [
     "encryption",
-    "algorith",
+    "decryption",
+    "utf-8",
+    "algorithm",
     "rc4",
     "arc4",
     "arcfour",
-    "rc4a"
+    "rc4a",
+    "aes",
+    "nodejs",
+    "javascript",
+    "php",
+    "password",
+    "salt"
   ],
+  "license":"MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/iLeonidze/RC4A.js.git"
